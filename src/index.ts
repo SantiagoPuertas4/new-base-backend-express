@@ -1,6 +1,6 @@
-import express from "express";
-import { env } from "./config/env";
-import health from "./routes/health";
+import express from 'express';
+import { env } from './config/env';
+import health from './routes/health';
 
 const app = express();
 app.use(express.json());

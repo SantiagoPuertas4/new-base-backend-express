@@ -1,0 +1,27 @@
+# Output & dependencies
+out
+dist
+build
+scripts
+node_modules
+dist
+build
+out
+
+# Lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Config & system files
+.env
+.vscode
+.idea
+
+# Others
+coverage
+
+# Logs / temporales
+*.log
+*.tmp
+logs
