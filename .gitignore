@@ -26,3 +26,4 @@ Thumbs.db
 .cache/
 out/
 coverage/
+src/lib/prisma/generated

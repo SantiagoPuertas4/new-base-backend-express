@@ -1,11 +1,9 @@
 import express from 'express';
+import health from './modules/health/health';
 
 const app = express();
 
 app.use(express.json());
-
-app.get('/health', (_req, res) => {
-  res.json({ ok: true });
-});
+app.use(health);
 
 export default app;
